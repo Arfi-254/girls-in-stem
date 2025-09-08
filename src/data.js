@@ -1,9 +1,11 @@
-import Juliana from './assets/Juliana.jpg'
-import Rebecca from './assets/Rebecca.png'
-import Nelly from './assets/Nelly.webp'
-import Francis from './assets/Francis.jpg'
-import Tonee from'./assets/Tonee.png'
-import shikoh from './assets/shikoh.jpg'
+import Sahra from './assets/sahra.jpg'
+import halima from './assets/halima.jpg'
+import hodan from './assets/hodan.jpeg'
+import amina from './assets/amina-hassan.jpg'
+import Amina from'./assets/Amina_Mohamed.jpg'
+import shikoh from'./assets/shikoh.jpg'
+
+
 import iHub from './assets/iHub.jpg'
 import moringa from './assets/moringa.jpg'
 import akira from './assets/akira.jpg'
@@ -14,55 +16,55 @@ import garissa from './assets/garissa.jpg'
 export const roleModels = [
   {
     id: 1,
-    name: "Juliana Rotich",
-    field: "Computer Science",
+    name: "Sahra Abdikarim Ibrahim",
+    field: "tech engineer",
     country: "Kenya",
-    image: Juliana,
+    image: Sahra,
     quote: "Advocates using technology to address societal challenges and empower communities across Africa.",
-    bio: "Professor at University of Nairobi, pioneering AI research for agricultural solutions in East Africa.",
-    achievement: "Developed drought prediction systems used across Kenya",
+    bio: "Zahra Abdikarim Ibrahim is a Somali tech entrepreneur, founder of SOSTEC Inc., and Somalia’s first female computer science lecturer. She empowers youth through Bilan Codes and Aflixi inspiring women to pursue careers in technology.",
+    achievement: "Established bilan codes a free coding education initiative aimed at empowering Somali girls with coding skills and enabling them to develop apps ",
     category: "technology"
   },
   {
     id: 2,
-    name: "Rebecca Enonchong",
+    name: "Halima ali aden",
     field: "Tech Enterpreneur", 
     country: "Kenya",
-    image: Rebecca,
-    quote: "“You dont envy the best, you learn from the best and you apply those to your business.” .",
-    bio: "Leading researcher in affordable medical technology, focusing on maternal health solutions.",
+    image: halima,
+    quote: "You dont envy the best, you learn from the best and you apply those to your business.” .",
+    bio:  "A Somali-Kenyan from Mombasa with a background in computer science. She holds a BSc in Computer Science from the University of Greenwich and an MSc in Development Studies.",
     achievement: "Recognized alongside digital luminaries like Larry Page and Marc Benioff. ",
     category: "engineering"
   },
   {
     id: 3,
-    name: "Nelly cheboi",
-    field: "Environmental Science",
+    name: "Hodan Omar Mohamed",
+    field: "software engineer",
     country: "Kenya",
-    image: Nelly,
+    image: hodan,
     quote: "We want our students to have the skills to work for international companies remotely from the village.",
-    bio: "Environmental scientist working on climate adaptation strategies for arid and semi-arid regions.",
-    achievement: "Founder of TechLit Africa, which builds computer labs in rural Kenyan schools using recycled computers.",
-    category: "science"
+    bio: "Somali software engineer and digital innovator dedicated to empowering youth through coding and technology.",
+    achievement: "Advocate for women in tech leadership through regional programs.",
+    category: "engineering"
   },
   {
     id: 4,
-    name: "Francis Nderitu",
+    name: "Amina hassan",
     field: "Renewable Energy",
     country: "Kenya",
-    image: Francis,
-    quote: "Solar energy is not just about technology - it's about bringing light to every village.",
+    image: amina ,
+    quote: "Solar energy is not just about technology it's about bringing light to every village.",
     bio: "Solar engineer designing affordable solar solutions for off-grid communities in Northern Kenya.",
     achievement: "Installed solar systems in over 100 schools in Garissa County",
     category: "engineering"
   },
   {
     id: 5,
-    name: "Tonee Ndungu",
-    field: "Data Science",
+    name: "Amina mohamed",
+    field: "ambassodor",
     country: "Kenya",
-    image:  Tonee,
-    quote: "Data tells stories that can transform entire communities when we listen carefully.",
+    image:  Amina,
+    quote: "Ambassador and Permanent Representative to influential international bodies such as the UN,  and the Conference on Disarmament.",
     bio: "Data scientist using machine learning to improve healthcare delivery in marginalized communities.",
     achievement: "Built predictive models that reduced disease outbreaks by 40%",
     category: "technology"
@@ -130,8 +132,8 @@ export const techHubs = [
     location: "Garissa",
     description: "Northern Kenya's premier innovation hub empowering young entrepreneurs and developers in underserved communities. Focused on creating tech solutions for local challenges while building digital skills.",
     programs: ["Mobile Development", "Digital Marketing", "Entrepreneurship Training", "UI/UX Design", "Data Analytics"],
-    contact: "+254 798 456 123",
-    website: "niehub.co.ke",
+    contact: "+254 795970773",
+    website: "www.niehub.org",
     image: niehub,
     ageGroup: "16+",
     cost: "Free - 20,000 KES",
